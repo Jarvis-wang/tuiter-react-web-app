@@ -1,0 +1,45 @@
+body{
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    border: rgb(47, 51, 54);
+    margin: 16px;
+}
+
+.wd-input-bar{
+    background-color: darkgrey;
+    color: white;
+    width: 92%;
+    border-radius: 50px;
+}
+.wd-hlink-gear{
+    background-color: black;
+    color: rgb(29,161,242);
+    background-position : calc(100% - 1px) 0;
+    border: black;
+    margin-left: 12px;
+    text-decoration: none;
+
+}
+.wd-nav-tabs {
+    color: rgb(110, 118, 125);
+    display: inline-block;
+    font-size: 15px;
+    padding: 16px 16px 16px 16px;
+}
+
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display:inline-block;
+}
+
+.wd-nav-tabs .wd-selected{
+    color: rgb(29,161,242);
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+.wd-topic{
+    font-size: 13px;
+    color: rgb( 110, 118, 125);
+}
