@@ -2,36 +2,59 @@ body{
     font-family: "Arial";
     background-color: black;
     color: white;
-    border: rgb(47, 51, 54);
-    margin: 16px;
+    border: 2px solid rgb(47, 51, 54);
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+.wb-border-top{
+    border: 2px solid rgb(47, 51, 54);
+    border-bottom: 10px solid rgb(47, 51, 54);
+    border-right: 0;
+    border-left: 0;
 }
 
 .wd-input-bar{
+
     background-color: darkgrey;
     color: white;
-    width: 92%;
+    width: 93%;
     border-radius: 50px;
+    margin-left: 16px;
+
+}
+.wd-margin-lr{
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .wd-hlink-gear{
+    position: absolute;
     background-color: black;
     color: rgb(29,161,242);
     background-position : calc(100% - 1px) 0;
     border: black;
-    margin-left: 12px;
     text-decoration: none;
+    right: 28px;
+    float: right ;
 
 }
 .wd-nav-tabs {
     color: rgb(110, 118, 125);
     display: inline-block;
     font-size: 15px;
-    padding: 16px 16px 16px 16px;
+    padding: 0px;
+    margin: 0;
+
 }
 
 
 .wd-nav-tabs li {
     list-style-type: none;
     display:inline-block;
+    padding: 16px 16px 16px 16px;
+
 }
 
 .wd-nav-tabs .wd-selected{
@@ -42,4 +65,36 @@ body{
 .wd-topic{
     font-size: 13px;
     color: rgb( 110, 118, 125);
+    margin-left: 16px;
+
+}
+
+
+.wd-border-mid{
+    border: 2px solid rgb(47, 51, 54);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+
+.wd-topic-name
+{
+    font-size: 13px;
+}
+.wd-float-left{
+    width: 80%;
+    float: left;
+}
+.wd-photo{
+    position: absolute;
+    border-radius: 20px;
+    float: right;
+    height: 100px;
+    width: 100px;
+    right: 32px;
+}
+
+.float-done{
+    clear: both;
 }
