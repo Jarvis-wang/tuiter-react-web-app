@@ -1,0 +1,147 @@
+body{
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 2px;
+    margin-bottom: 16px;
+
+}
+
+.wd-margin-lr{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.wd-margin-lr1{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 12px;
+}
+.wd-margin-title{
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.wd-border{
+    border: 1px solid rgb(47, 51, 54);
+
+
+
+}
+
+.wd-border-top{
+    border: 1px solid rgb(47, 51, 54);
+    border-bottom: 0;
+
+}
+
+.wd-border-top1{
+    border: 1px solid rgb(47, 51, 54);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+
+}
+
+.wd-border-bot{
+    border: 1px solid rgb(47, 51, 54);
+    border-top: 0;
+
+}
+.wd-title{
+    color: white;
+    font-size: 20px;
+}
+.wd-user{
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-img-size{
+
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
+
+}
+
+.wd-by{
+    font-size: 15px;
+    color: white;
+}
+.wd-author{
+    color: lightgray;
+}
+.wd-right-float{
+    overflow:hidden;
+    width: 8%;
+    float: left;
+}
+.wd-right-float1{
+    overflow:hidden;
+    width: 88%;
+    margin-left: 12px;
+    margin-right: 12px;
+    float: left;
+}
+.wd-left-float1{
+    overflow:hidden;
+    width: 88%;
+    margin-left: 12px;
+    margin-right: 12px;
+    float: right;
+}
+
+.wd-img-2{
+    width: 504px;
+    height: 264px;
+
+    padding-bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.wd-border-ins{
+    width: 504px;
+    height: 264px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-ins1{
+    width: 504px;
+
+
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgb(47, 51, 54);
+}
+.wd-hr{
+    border: 1px solid rgb(47, 51, 54);
+
+}
+
+.wd-inbox-p{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 12px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wd-inbox-p2{
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 15px;
+    color: lightgray;
+
+
+}
+.wd-color-a{
+    color: lightgray;
+    text-decoration: none;
+}
+
