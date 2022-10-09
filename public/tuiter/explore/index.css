@@ -163,6 +163,26 @@ body{
     margin-left: 16px ;
 }
 
+.list-group.override-lsn{
+    position: absolute ;
+    background-color: black ;
+    float: right !important;
+    color: white ;
+    width: 280px;
+    margin-right: 16px ;
+    margin-left: 16px ;
+}
+
+.list-group.override-lsn1{
+    position: absolute ;
+    background-color: black ;
+    float: right !important;
+    color: white ;
+    width: 250px;
+    margin-right: 16px ;
+    margin-left: 16px ;
+}
+
 .list-group-item.override-color{
     background-color: black ;
     color: white ;
@@ -185,6 +205,36 @@ body{
     text-decoration: none;
 }
 
+.list-group.override-ls2{
+    background-color: black ;
+    float: right !important;
+    color: white ;
+    margin-left: 16px ;
+    margin-right: 16px ;
+    padding-left: 270px;
+    width: 400px;
+}
+
+.list-group.override-ls3{
+    background-color: black ;
+    float: right !important;
+    color: white ;
+    margin-left: 16px ;
+    margin-right: 16px ;
+    padding-left: 270px;
+    width: 320px;
+}
+
+.list-group.override-ls4{
+    background-color: black ;
+    float: right !important;
+    color: white ;
+    margin-left: 16px ;
+    margin-right: 16px ;
+    padding-left: 270px;
+    width: 350px;
+}
+
 .nav-link.override-from{
     color: white !important;
     text-decoration: none;
@@ -196,6 +246,31 @@ body{
     margin-top: 5px;
     float: right !important;
     width: 180px;
+}
+
+.btn-primary.override-bs1{
+    margin-left: 16px ;
+    margin-right: 16px ;
+    margin-top: 5px;
+    float: right !important;
+    width: 130px;
+}
+.btn-primary.override-bs2{
+    margin-left: 16px ;
+    margin-right: 16px ;
+    margin-top: 5px;
+    float: right !important;
+    width: 50px;
+    font-size: 12px;
+}
+
+.btn-primary.override-bs3{
+    margin-left: 16px ;
+    margin-right: 16px ;
+    margin-top: 5px;
+    float: right !important;
+    width: 80px;
+
 }
 
 .wd-img-size{
@@ -231,6 +306,50 @@ body{
     margin-right: 5px;
     margin-top: 15px;
     margin-bottom: 5px;
+
+
+
+}
+
+.wd-rot-21{
+    float: left;
+    width: 50%;
+    margin-left: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.wd-rot-31{
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+
+
+}
+
+.wd-rot-22{
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.wd-rot-32 {
+    float: left;
+    width: 20%;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
 
 
 
