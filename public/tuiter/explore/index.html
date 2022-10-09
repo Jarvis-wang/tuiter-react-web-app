@@ -1,113 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link HREF="index.css" rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 
 </head>
 <body>
+<div class = "row">
 
-<div class="wb-border-top1">
-    <a class="wd-margin-lr" href="../navigation.html">Back</a>
-</div>
-  <div>
-     <div class="wb-border-top">
-        <h1 class="wd-margin-lr">Explore</h1>
-          <div >
-              <input type= "text" class = "wd-input-bar" placeholder="Search Tuiter">
-              <a class="wd-hlink-gear" href="explore-settings.html"> <span>&#9881;</span> </a>
-          </div>
 
-          <div>
-              <ul class="wd-nav-tabs">
-                  <li class="wd-selected">
-                      <a>For you</a>
-                  </li>
-                  <li>
-                      <a>Trending</a>
-                  </li>
-                  <li>
-                      <a>COVID-19</a>
-                  </li>
-                  <li>
-                      <a>News</a>
-                  </li>
-                  <li>
-                      <a>Sport</a>
-                  </li>
-              </ul>
-          </div>
-     </div>
-    <div class="wd-border-break">
-        <br>
+        <a class="wd-margin-lr" href="../navigation.html">Back</a>
+
+    <div class="col-12 col-md-6 col-xl-4 bg-black">
+        <ul class="list-group override-ls1">
+            <li class="list-group-item override-color">
+                <a class="fa fa-bars override-from" style="color: white" href="../navigation.html"></a>
+            </li>
+            <li class="list-group-item override-color">
+                <a class="fa fa-home override-from" href="../home.html"> Home</a>
+            </li>
+            <li class="list-group-item override-color bg-primary">
+                <a class="fa fa-hashtag override-from " href="index.html"> Explore</a>
+            </li>
+            <li class="list-group-item override-color">
+                <a class="fa fa-bell override-from" href="Notifications.html"> Notifications </a>
+            </li>
+            <li class="list-group-item override-color">
+                <a class="fa fa-envelope override-from" href="Messages.html"> Messages</a>
+            </li>
+            <li class="list-group-item override-color">
+                <a class="fa fa-bookmark override-from" href="../bookmarks/index.html"> Bookmarks</a>
+            </li>
+            <li class="list-group-item override-color">
+                <a class="fa fa-list override-from" href="lists.html"> Lists</a>
+            </li>
+            <li class="list-group-item override-color">
+                <a class="fa fa-user override-from" href="../profile.html"> Profile</a>
+            </li>
+
+
+        </ul>
+        <div class="float-done"></div>
+
+        <button class="btn btn-primary override-bs rounded-pill ">
+
+            Tuit
+
+        </button>
+        <div class="float-done"></div>
+        <button class="btn btn-primary override-bs rounded-pill ">
+            Reply
+        </button>
+        <div class="float-done"></div>
+
+
+
+
     </div>
 
-      <div >
-          <div class="wd-border-mid">
-              <h3 class="wd-topic">Trending in Science</h3>
-              <h3 class="wd-margin-lr">Starship</h3>
-              <h3 class="wd-topic">55.5k views</h3>
-          </div>
-          <div class= "wd-border-mid1">
-              <h3 class="wd-topic">Sport · Trending </h3>
-              <h3 class="wd-margin-lr">Joe Rogan</h3>
-              <h3 class="wd-topic">5,218 views</h3>
-          </div>
-      </div>
+    <div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 bg-black">
+        <form>
+            <div>
+                <div class="wb-border-top">
+                    <h1 class="wd-margin-lr">Explore</h1>
+                    <div >
+                        <div class="input-group mb-3 ">
+                            <span class="input-group-text rounded-start  wd-input-mg  border-0 ml-n5" id="basic-addon1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </span>
 
-      <div class="wd-border-mid">
-          <div class="wd-topic-name" >
-              <p class="wd-margin-lr">The New York Times<span class="wd-topic">· Yesterday</span></p>
-          </div>
-          <div class="wd-float-left">
-              <h2 class="wd-margin-lr">CNN's cuomo conundrum: A star anchor with a brother in trouble</h2>
-              <br/> <br/> <br/>
-          </div>
-          <img class ="wd-photo" src="../bob.jpg"/>
-          <div class="float-done"></div>
-      </div>
+                            <input type="text" class="form-control py-2 round wd-input-mg1 mr-1 pr-5 " placeholder="  Search Tuiter" aria-label="Username" aria-describedby="basic-addon1">
+                            <a class="fa fa-cog fa-1x  wd-hl-noul wd-margin-lr"  style="color: rgb(29,161,242)" href="explore-settings.html">  </a>
+                        </div>
+
+                    </div>
 
 
-      <div class="wd-border-mid">
-          <div class="wd-topic-name" >
-              <p class="wd-margin-lr">Bloomberg Opinion<span class="wd-topic">· Yesterday</span></p>
-          </div>
-          <div class="wd-float-left">
-              <h2 class="wd-margin-lr">Thinking about getting a booster? Read this first</h2>
-              <br/> <br/> <br/>
-          </div>
-          <img class ="wd-photo" src="../banner.jpg"/>
-          <div class="float-done"></div>
-      </div>
-
-      <div class="wd-border-mid">
-          <div class="wd-topic-name" >
-              <p class="wd-topic">COVID-19 · LIVE</p>
-          </div>
-          <div class="wd-float-left">
-              <h2 class="wd-margin-lr">COVID-19: News and updates for Massachusetts</h2>
-              <br/> <br/> <br/>
-          </div>
-          <img class ="wd-photo" src="../prof.jpg"/>
-          <div class="float-done"></div>
-      </div>
-
-      <div class="wd-border-mid2">
-          <div class="wd-topic-name" >
-              <p class="wd-topic">Lorem Ipsum · Article</p>
-          </div>
-          <div class="wd-float-left">
-              <h2 class="wd-margin-lr">What is Lorem Ipsum?: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-              <br/> <br/> <br/>
-          </div>
-          <img class ="wd-photo" src="lorem.jpg"/>
-          <div class="float-done"></div>
-      </div>
-
-  </div>
 
 
+
+                    <div class="wd-nva-mg">
+                        <ul class="nav" style="color: lightgray" >
+                            <li class="nav-item  wd-nav-tabs">
+                                <a class="nav-link active"   href="for-you.html">For you</a>
+                            </li>
+                            <li>
+                                <a class="nav-link override-from" href="trending.html">Trending</a>
+                            </li>
+                            <li>
+                                <a class="nav-link override-from" href="news.html ">COVID-19</a>
+                            </li>
+                            <li>
+                                <a class="nav-link override-from" href="sports.html">News</a>
+                            </li>
+                            <li>
+                                <a class="nav-link override-from" href="entertainment.html">Sport</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div>
+                    <img class="wd-photo1" src="sbsp.png">
+                </div>
+
+
+
+                <div >
+
+                    <div class="wd-border-mid">
+                        <h3 class="wd-topic">Trending in Science</h3>
+                        <h3 class="wd-margin-lr">Starship</h3>
+                        <h3 class="wd-topic">55.5k views</h3>
+                    </div>
+                    <div class= "wd-border-mid1">
+                        <h3 class="wd-topic">Sport · Trending </h3>
+                        <h3 class="wd-margin-lr">Joe Rogan</h3>
+                        <h3 class="wd-topic">5,218 views</h3>
+                    </div>
+                </div>
+
+                <div class="wd-border-mid">
+                    <div class="wd-topic-name" >
+                        <p class="wd-margin-lr">The New York Times<span class="wd-topic">· Yesterday</span></p>
+                    </div>
+                    <div class="wd-float-left">
+                        <h4 class="wd-margin-lr">CNN's cuomo conundrum: A star anchor with a brother in trouble</h4>
+                        <br/> <br/> <br/>
+                    </div>
+                    <div class="wd-float-r">
+
+                        <img class ="wd-photo wd-float-r" src="../bob.jpg"/>
+                    </div>
+
+                    <div class="float-done"></div>
+                </div>
+
+
+
+                <div class="wd-border-mid">
+                    <div class="wd-topic-name" >
+                        <p class="wd-margin-lr">Bloomberg Opinion<span class="wd-topic">· Yesterday</span></p>
+                    </div>
+                    <div class="wd-float-left">
+                        <h4 class="wd-margin-lr">Thinking about getting a booster? Read this first</h4>
+                        <br/> <br/> <br/>
+                    </div>
+                    <div class="wd-float-r">
+                        <img class ="wd-photo" src="../banner.jpg"/>
+                    </div>
+                    <div class="float-done"></div>
+                </div>
+
+                <div class="wd-border-mid">
+                    <div class="wd-topic-name" >
+                        <p class="wd-topic">COVID-19 · LIVE</p>
+                    </div>
+                    <div class="wd-float-left">
+                        <h4 class="wd-margin-lr">COVID-19: News and updates for Massachusetts</h4>
+                        <br/> <br/> <br/>
+                    </div>
+
+                    <div class="wd-float-r">
+                        <img class ="wd-photo" src="../prof.jpg"/>
+                    </div>
+                    <div class="float-done"></div>
+                </div>
+
+                <div class="wd-border-mid2">
+                    <div class="wd-topic-name" >
+                        <p class="wd-topic">Lorem Ipsum · Article</p>
+                    </div>
+                    <div class="wd-float-left">
+                        <h4 class="wd-margin-lr">What is Lorem Ipsum?: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+                        <br/> <br/> <br/>
+                    </div>
+                    <div class="wd-float-r">
+                        <img class ="wd-photo" src="lorem.jpg"/>
+                    </div>
+                    <div class="float-done"></div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="col-12 col-md-6 col-xl-4 bg-black">
+        <div >
+            <ul class="list-group override-ls">
+                <li class="list-group-item override-color ">
+                    who to follow
+
+                </li>
+                <li class="list-group-item override-color ">
+
+                    <div class = "wd-rot-1">
+                        <img class = "wd-img-size"src="lorem.jpg">
+
+                    </div>
+                    <div class="wd-rot-2 ">
+                        Lorme Ipsum
+                        <p class="wd-user">@LormeIpsum</p>
+                    </div>
+
+                    <div class="wd-rot-3">
+
+                        <button class="btn btn-primary rounded-pill " >follow</button>
+                    </div>
+                    <div class="float-done"></div>
+
+
+                </li>
+                <li class="list-group-item override-color">
+                    <div class = "wd-rot-1">
+                        <img class = "wd-img-size"src="Java.jpg">
+                    </div>
+                    <div class="wd-rot-2 ">
+                        Java
+                        <p class="wd-user">@Java</p>
+                    </div>
+
+                    <div class="wd-rot-3">
+
+                        <button class="btn btn-primary rounded-pill " >follow</button>
+                    </div>
+
+
+                </li>
+                <li class="list-group-item override-color">
+
+                    <div class = "wd-rot-1">
+                        <img class = "wd-img-size"src="nasa.jpg">
+                    </div>
+                    <div class="wd-rot-2 ">
+                        Nasa
+                        <p class="wd-user">@Nasa</p>
+                    </div>
+
+                    <div class="wd-rot-3">
+
+                        <button class="btn btn-primary rounded-pill " >follow</button>
+                    </div>
+                </li>
+                <li class="list-group-item override-color">
+
+
+                    <div class = "wd-rot-1">
+                        <img class = "wd-img-size"src="Tesla.jpg">
+                    </div>
+                    <div class="wd-rot-2 ">
+                        Tesla
+                        <p class="wd-user">@Tesla</p>
+                    </div>
+
+                    <div class="wd-rot-3">
+
+                        <button class="btn btn-primary rounded-pill " >follow</button>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
 
 
 
