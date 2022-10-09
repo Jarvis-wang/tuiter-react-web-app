@@ -186,7 +186,7 @@ body{
 .list-group-item.override-color{
     background-color: black ;
     color: white ;
-    border: 2px solid rgb(47, 51, 54);
+    border: 1px solid black;
 }
 
 
@@ -363,4 +363,18 @@ body{
     height: 300px;
     width: 485px;
 
+}
+
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    left: 2px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
