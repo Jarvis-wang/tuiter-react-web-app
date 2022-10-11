@@ -25,24 +25,24 @@ body{
 
 .wd-input-mg{
 
-    background-color: darkgrey;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     border-bottom-left-radius: 50px !important;
     border-top-left-radius: 50px !important;
     height: 30px;
 
     margin-left: 16px ;
-    border-right-color: darkgrey;
+    border-right-color: whitesmoke;
 
 }
 
 .wd-input-mg1{
 
-    background-color: darkgrey;
-    color: white;
+    background-color: whitesmoke;
+    color: darkgrey;
     border-bottom-right-radius: 50px !important;
     border-top-right-radius: 50px !important;
-    border-color: darkgrey;
+    border-color: whitesmoke;
     height: 30px;
     margin-right: 16px ;
 
@@ -51,6 +51,20 @@ body{
 .wd-margin-lr{
     margin-left: 16px;
     margin-right: 16px;
+    padding-top: 12px;
+
+}
+.wd-margin-lr1{
+    margin-left: 16px;
+    margin-right: 16px;
+
+
+}
+
+.wd-three-dot {
+    color: lightgray!important;
+    float: right !important;
+    margin-right: 16px !important;
 }
 .wd-hl-noul {
     text-decoration: none;
@@ -88,9 +102,10 @@ body{
 }
 
 .wd-topic{
-    font-size: 13px;
+    font-size: 15px;
     color: rgb( 110, 118, 125);
     margin-left: 16px;
+    padding-top: 12px;
 
 }
 
@@ -119,16 +134,17 @@ body{
 }
 .wd-topic-name
 {
-    font-size: 13px;
+    font-size: 15px;
 }
 .wd-float-left{
-    width: 75%;
+    width: 82%;
     float: left;
 }
 .wd-float-r{
-    width: 20%;
+    width: 15%;
     float: left;
     margin-right: 12px;
+
 }
 
 .wd-photo{
@@ -188,7 +204,20 @@ body{
     color: white ;
     border: 1px solid black;
 }
+.list-group-item.override-color1{
+    background-color: rgb(48,48,48) ;
+    color: white ;
+    border: 1px solid rgb(48,48,48);
+}
+.chatbotListOptionsBox {
+    border-radius: 30px !important;
+}
 
+.wd-m-foot {
+    margin-top: 420px !important;
+    margin-left: 10px;
+    font-size: 12px !important;
+}
 
 
 .list-group.override-ls1{
@@ -203,6 +232,11 @@ body{
 .fa.override-from{
     color: white !important;
     text-decoration: none;
+}
+.fa.override-from1{
+    color: white !important;
+    text-decoration: none;
+    font-weight: bolder !important;
 }
 
 .list-group.override-ls2{
