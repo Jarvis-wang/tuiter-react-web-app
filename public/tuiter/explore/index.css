@@ -214,6 +214,7 @@ body{
 }
 
 .wd-m-foot {
+    width: 400px;
     margin-top: 420px !important;
     margin-left: 10px;
     font-size: 12px !important;
