@@ -7,7 +7,7 @@ const PostItem = (posts)=>{
                     <div  >
                           <img src=${posts.image} class=" wd-ico-size wd-ico-m" style="float:left;  "  align="left"}/>
                      </div>
-                     <div class="wd-m-l" style="float:left;width:50%; ">
+                     <div class="wd-m-l" style="float:left;width:70%; ">
                         ${posts.userName} <span class="fa-solid fa-circle-check" ></span> <span style="color: gray">${posts.ac} ${posts.time} </span>  <br>  ${posts.com1} <a href="/">${posts.hl}</a> ${posts.com2}
                          
                     </div>
