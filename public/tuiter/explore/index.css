@@ -398,7 +398,15 @@ body{
 
 .wd-m-r{
     float: right;
-    width: 16%;
+    width: 17%;
     margin: 12px;
 
+}
+
+.wd-bord {
+    border: 1px solid gray;
+
+}
+.wd-oc{
+ background-color: rgb(0, 123, 255);
 }
