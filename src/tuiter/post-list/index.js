@@ -8,9 +8,9 @@ const PostList = () => {
     return(
         <ul className="list-group">
             {
-                postsArray.map((post) =>
+                return (postsArray.map(post) =>
                     <PostItem
-                        key={post._id} post={post}/> )
+                        key={post._id} post={post}/> ))
             }
         </ul>
     );
