@@ -10,7 +10,7 @@ const PostList = () => {
             {
                postsArray.map(post =>
                     <PostItem
-                        key={post._id} post={post}/> )
+                       key={post._id} post={post}/> )
             }
         </ul>
     );

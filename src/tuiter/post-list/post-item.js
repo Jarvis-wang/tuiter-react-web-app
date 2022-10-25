@@ -9,8 +9,7 @@ import {
     MDBCardBody,
     MDBCardTitle,
     MDBCardText,
-    MDBCardImage,
-    MDBBtn
+    MDBCardImage
 } from 'mdb-react-ui-kit';
 const PostItem = (
     {
@@ -54,18 +53,18 @@ const PostItem = (
 
                         <ul className="wd-icon-layout">
                             <li>
-                                <a><FaRegCommentDots/>
+                                <a href="#"><FaRegCommentDots/>
                                     {post.n1}  </a>
                             </li>
                             <li>
-                                <a> <MdOutlineTransform/> {post.n2}
+                                <a href="#"> <MdOutlineTransform/> {post.n2}
                                 </a>
                             </li>
                             <li className="wd-selected">
                                 <a> <AiOutlineHeart/> {post.n3}</a>
                             </li>
                             <li>
-                                <a><BiUpload/> </a>
+                                <a href="#"><BiUpload/> </a>
                             </li>
 
                         </ul>
