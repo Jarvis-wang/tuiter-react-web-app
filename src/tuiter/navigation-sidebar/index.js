@@ -5,7 +5,7 @@ const NavigationSidebar = () => {
     const location = useLocation();
     const pathname = location.pathname;
     const parts = pathname.split('/')
-   console.log(parts[1])
+   console.log("parts",parts)
     return (
 
         <div className="list-group">
@@ -28,9 +28,9 @@ const NavigationSidebar = () => {
             <a className="list-group-item">
                 Lists
             </a>
-            <a className="list-group-item">
+            <Link  to="/tuiter/profile"  className={`${parts[2] === 'profile' ? 'active':''} list-group-item`}>
                 Profile
-            </a>
+            </Link>
             <a className="list-group-item">
                 More
             </a>

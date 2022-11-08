@@ -5,12 +5,13 @@ import {BrowserRouter } from "react-router-dom";
 import {Routes, Route} from 'react-router-dom';
 
 
+
 function App() {
     return (
         <BrowserRouter>
             <div className="container">
                 <Routes>
-                    <Route index
+                    <Route path = "/*"
                            element={<Labs/>}/>
                     <Route path="/tuiter/*"
                            element={<Tuiter/>}/>
