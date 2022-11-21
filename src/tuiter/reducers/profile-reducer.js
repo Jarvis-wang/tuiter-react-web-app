@@ -15,7 +15,6 @@ const profileSlice = createSlice({
     initialState: initData,
     reducers: {
         changeProfile(state, action){
-            console.log('dispatch', action.payload)
             state.firstName = action.payload.firstName
             state.lastName = action.payload.lastName
             state.handle = action.payload.handle

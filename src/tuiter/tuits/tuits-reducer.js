@@ -27,30 +27,55 @@ const tuitsSlice = createSlice({
     name: 'tuits',
     initialState: tuits,
     reducers: {
-        deleteTuit(state, action) {
-            const index = state
+        async deleteTuit(state, action) {
+            try{
+                await fetch(`http://127.0.0.1:4000/api/tuit/list/${action.payload}`, {
+                    method: 'DELETE'
+                })
+                const index = state
                 .findIndex(tuit =>
                     tuit._id === action.payload);
-            state.splice(index, 1);
-        },
-        createTuit(state, action) {
-            console.log('create tuits', action.payload);
-            state.unshift({...templateTuit,
-                ...action.payload,
-                _id: (new Date()).getTime(),
-            })
-        },
-        handleLiked(state, action){
-            console.log(action.payload);
-            state.map((item, index)=>{
-                if(item._id === action.payload){
-                    let temp = item
-                    temp.liked = !temp.liked
-                    temp.likes = temp.liked?temp.likes + 1: temp.likes - 1
-                    state[index] = temp
-                }
-            })
+                state.splice(index, 1);
+            }catch(e){
+                console.log(e);
+            }
 
+        },
+         async createTuit(state, action) {
+            try{
+                await fetch(`http://127.0.0.1:4000/api/tuit/create`, {
+                    method: 'POST',
+                    body: {...templateTuit,
+                        ...action.payload,
+                        _id: (new Date()).getTime(),
+                    }
+                })
+                state.unshift({...templateTuit,
+                    ...action.payload,
+                    _id: (new Date()).getTime(),
+                })
+            }catch(e){
+                console.log(e);
+            }
+            
+        },
+        async handleLiked(state, action){
+            try{
+                await fetch(`http://127.0.0.1/api/tuit/liked`, {
+                    method: 'PUT',
+                    body: {id: action.payload}
+                })
+                state.map((item, index)=>{
+                    if(item._id === action.payload){
+                        let temp = item
+                        temp.liked = !temp.liked
+                        temp.likes = temp.liked?temp.likes + 1: temp.likes - 1
+                        state[index] = temp
+                    }
+                })
+            }catch(e){
+                console.log(e);
+            }
         }
     }
 });
